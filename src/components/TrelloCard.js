@@ -10,7 +10,7 @@ const TrelloCard = ({text}) => {
             style={styles.cardContainer}
             >
                 <CardContent>
-                    <Typography gutterButton>
+                    <Typography gutterBottom>
                         {text}
                     </Typography>
                 </CardContent>
